@@ -39,10 +39,14 @@ header div{
     line-height: 80px;
 }
 
+.navbar span{
+    padding-right: 2px;
+}
+
 .categories{
     width: 25%;
     font-size: 14px;
-    padding-left:30px;
+    padding-left:5px;
 }
 
 .utils{
@@ -80,12 +84,13 @@ article{
 
 .box{
     flex-basis: 33,3%;
+    position: relative;
 }
 
 .box-img{
-    /* width: 100%; */
     max-height: 500px;
     padding: 0 5px;
+    position: relative;
 }
 
 .description{
@@ -113,6 +118,8 @@ article section{
     left:10px;
     padding-right: 2x;
     color: #fff;
+    font-size: 14px;
+    padding: 2px;
 }
 
 #s-ability{
@@ -121,4 +128,38 @@ article section{
     bottom: 70px;
     left:50px;
     color: #fff;
+    font-size:14px;
+    padding: 2px;
+}
+
+.heart-box{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    top:5px;
+    right:0;
+}
+
+#heart{
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+
+.odd{
+    display: block;
+}
+
+.even{
+    display: none;
+}
+
+.change-img:hover .odd{
+    display: none;
+}
+
+.change-img:hover .even{
+    display: block;
 }
